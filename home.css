@@ -3,3 +3,87 @@ margin: 0;
 padding: 0;
 
 }
+@media only screen and (min-width:300px) and (max-width: 600px) {
+    
+
+
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#dad{
+    width: 96%;
+    height: 100%;
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.image{
+    width: 100%;
+    height:auto;
+}
+
+.mom{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.mum{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+
+#more{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+#morei{
+    width: 40%;
+    height: 150px;
+}
+
+
+.upload-container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+input[type="file"]{
+    margin: 15px 0;
+}
+
+
+.preview-box{
+    width: 250px;
+    height: 250px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.preview-box img{
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+}
+}
